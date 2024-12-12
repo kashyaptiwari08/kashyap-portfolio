@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashyap's Portfolio</title>
+    <style>
+    .topnav {
+    background-color: #333;
+    overflow: hidden;
+    }
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    .topnav a:hover {
+    background-color: #A8D8EA;
+    color: black;
+    }
+    .topnav a.active {
+    background-color: #1B6B93;
+    color: white;
+    }
+    .topnav a.name {
+    
+    background-color: #1B6B93;
+    color: white;
+    }
+    .name{
+            text-align: center;
+        }
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #1B6B93;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1B6B93;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    footer {
+            background-color: #1B6B93;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 10px;
+
+        }
+        footer a{
+            margin: 15px;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem; } 
+        h1 { 
+          color: #1B6B93;
+          text-align: center; 
+        } 
+        ul.styled-list { 
+          list-style-type: none; padding: 0; 
+        } 
+        ul.styled-list li {
+           background: #fff; margin: 0.5rem 0; padding: 1rem; border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); transition: background 0.3s;
+           }
+        ul.styled-list li:hover
+        { background: #1B6B93; 
+        } 
+        ul.styled-list li::before {
+          content: "•"; color: #1B6B93; font-size: 1.5rem; display: inline-block; width: 1.5rem;margin-right: 0.5rem;
+         }
+    </style>
+</head>
+<body style="margin: 0px;">
+    <header>  
+        <div class="topnav">
+            <a class="name" href="#home">Kashyap</a>
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </header>
+    <div class="name">
+        <img src="img.jfif" alt="profile picture" height="250" style="margin-top: 30px;">
+        <h1 style="font-size: 30px; color: #1B6B93;">Kashyap Tiwari</h1>
+        <p style="font-size: 15px; color: #1B6B93;margin-right:200px; margin-left: 200px;" >Hello! My name is Kashyap Tiwari, and I am a first-year student pursuing a degree in Computer Science and Engineering. I have a keen interest in programming languages such as C, C++, JavaScript, and HTML. I look forward to connecting with like-minded individuals and contributing to innovative projects in the tech world.</p>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="container"> 
+      <h1>Skills</h1> 
+      <ul class="styled-list"> 
+        <li>HTML & CSS</li> 
+        <li>JavaScript</li> 
+        <li>Python</li> 
+        <li>C</li>
+        <li>SQL</li>
+       </ul> 
+      </div>
+      <br>
+<hr>
+<br>
+    <div class="container"> 
+      <h1>Learning Goals</h1> 
+      <ul class="styled-list"> 
+        <li>React JS</li> 
+        <li>C++</li> 
+        <li>MERN Stack</li> 
+      </div>
+<br>
+<hr>
+<br>
+    <section id="contact" class="contact-form">
+
+        <div class="container">
+          <h1>Contact Me</h1> 
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="email">Your email</label>
+              <input type="text" id="email" name="email" placeholder="Your email">
+              <label for="subject">Your Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <p style="font-size: 15px;">&copy;2024 Kashyap's Portfolio</p>
+    </footer>
+</body>
+</html>
